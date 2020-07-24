@@ -1,0 +1,21 @@
+[package]
+name = "rocket"
+version = "0.1.0"
+authors = ["Rafa G.M. <rgtresd@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+glib = "^0"
+dirs = "3.0"
+regex = "1"
+notify-rust = "4"
+
+[dependencies.gtk]
+version = "0.9.0"
+features = ["v3_16"]
+
+[dependencies.gio]
+version = ""
+features = ["v2_44"]
